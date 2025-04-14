@@ -1,0 +1,8 @@
+name: MyDevops Actions
+on: workflow_dispatch
+jobs:
+  Testing:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Testing Workflow
+      run: echo "Workfolw Works!"
